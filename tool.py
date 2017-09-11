@@ -1,3 +1,12 @@
+'''
+Change
+7654	MARTIN    	SALESMAN 	7698	 28-SEP-97      	15675	3500	30
+to
+insert into emp2016154082(EMPNO,ENAME,JOB,MGR,HIREDATE,SAL,COMM,DEPTNO)values(7654,'MARTIN','SALESMAN',7698,28,'SEP',97,15675,3500,30);
+
+There are some bug:
+Just as the date is change to “28,'SEP',97”,I haven't good idea to fix it.
+'''
 import os
 
 def deal(a):
@@ -36,3 +45,4 @@ with open(file_name+r'\a.txt','r') as f:
         ans1+='values'
         ans1+='('+ans+');'+'\n'
         print(ans1)
+input()
