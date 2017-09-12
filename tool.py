@@ -5,7 +5,7 @@ to
 insert into emp2016154082(EMPNO,ENAME,JOB,MGR,HIREDATE,SAL,COMM,DEPTNO)values(7654,'MARTIN','SALESMAN',7698,28,'SEP',97,15675,3500,30);
 
 There are some bug:
-Just as the date is change to “28,'SEP',97”,I haven't good idea to fix it.
+The date will change to “28,'SEP',97” but I want it change to '28-SEP-97',I haven't good idea to fix it.
 '''
 import os
 
